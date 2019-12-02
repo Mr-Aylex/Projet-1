@@ -5,6 +5,6 @@
     <title>Inscription</title>
   </head>
   <body>
-    
+    <a href="#">google</a>
   </body>
 </html>
