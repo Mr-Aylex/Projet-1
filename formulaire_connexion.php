@@ -14,7 +14,11 @@ session_start();
 
   </head>
   <body>
+
+    <div class="box">
     <form class="" action="formulaire_connexion.php" method="post">
+
+
 
       <div>
         <label>Adresse Mail</label>
@@ -32,8 +36,10 @@ session_start();
       </div>
 
 
-
+      <div>
+        <a href="mot_de_passe_oublie.php">Mot de passe oublié</a>
+      </div>
     </form>
-
+</div>
   </body>
 </html>
