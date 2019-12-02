@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    
-  </body>
-</html>
+<section>
+  <div class="">
+
+  </div>
+  <div class="">
+
+  </div>
+  <div class="">
+
+  </div>
+  <div class="">
+
+  </div>
+</section>
