@@ -13,6 +13,7 @@ else {
   $statut=$_POST['statut'];
   $classe=$_POST['classe'];
   $mdp=md5($_POST['mdp']);
+  echo $mdp;
   try
   {
     $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
