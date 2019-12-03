@@ -13,6 +13,7 @@
 }
 .navbarB{
   padding:inherit;
+  float: left;
 }
 .item{
   text-decoration: none;
@@ -29,4 +30,12 @@
   height: 50px;
   text-align: center;
   border-radius: 6px;
+}
+.carroussel{
+  width: 450px;
+  margin-left: 150px;
+  height: 300px;
+}
+.nav{
+  background-color: blue;
 }
