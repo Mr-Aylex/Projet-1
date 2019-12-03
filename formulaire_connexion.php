@@ -2,7 +2,7 @@
 
 session_start();
 
- ?>
+?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -16,7 +16,7 @@ session_start();
   <body>
 
     <div class="box">
-    <form class="" action="formulaire_connexion.php" method="post">
+    <form class="" action="page_principale.php" method="post">
 
 
 
