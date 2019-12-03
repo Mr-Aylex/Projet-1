@@ -2,32 +2,40 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+      <link rel="stylesheet" href="../CSS/formulaire2.css">
     <title>Inscription</title>
   </head>
   <body>
-    <form class="" action="..\traitement\traitement_inscription.php" method="post">
-      <div class="">
-        <label for="">nom</label>
-        <input type="text" name="nom" >
+    <form class="box" action="..\traitement\traitement_inscription.php" method="post">
+  <label class="label" for="">Nom</label>
+      <div class="inputbox">
+
+        <input type="text" name="nom" placeholder="Nom"/>
       </div>
-      <div class="">
-        <label for="">prenom</label>
-        <input type="text" name="prenom" value="">
+      <label class="label" for="">Prenom</label>
+      <div class="inputbox">
+
+        <input type="text" name="prenom" placeholder="Prenom"/>
       </div>
-      <div class="">
-        <label for="">age</label>
-        <input type="number" name="age" value="">
+        <label class="label" for="" >Age</label>
+      <div class="inputbox">
+        <input type="number" name="age" placeholder="Age"/>
       </div>
-      <div class="">
-        <label for="">mail</label>
-        <input type="text" name="mail" value="">
+      <label class="label"  for="">Mail</label>
+      <div class="inputbox">
+
+        <input type="text" name="mail"  placeholder="Mail"value=""/>
       </div>
-      <div class="">
-        <label for="">adresse</label>
-        <input type="text" name="adresse" value="">
+      <label class="label" for="">Adresse</label>
+      <div class="inputbox">
+
+        <input type="text" name="adresse" placeholder="Adresse">
       </div>
-      <div class="">
-        <label for="">classe</label>
+
+
+        <label class="label" for="">Classe</label>
+      <div class="select">
+
         <select class="" name="classe">
           <option value="STI2D">bac STI2D</option>
           <option value="TU">bac pro TU</option>
@@ -38,19 +46,28 @@
           <option value="SISR">BTS SIO option SISR</option>
         </select>
       </div>
-      <div class="">
-        <label for="">mot de passe</label>
-        <input type="password" name="mdp" value="">
+
+        <label class="label" for="">Mot de passe</label>
+      <div class="inputbox">
+        <input type="password" name="mdp" placeholder="Mot de passe"/>
       </div>
-      <div class="">
-        <label for="">statut</label>
+
+
+      <div class="select">
+
+
+      <label for="">Statut</label>
+      <div class="inputbox">
+
         <select class="" name="statut">
           <option value="parent">Parent</option>
           <option value="eleve">Eleve</option>
         </select>
       </div>
+
+      </div>
       <div class="">
-        <input type="submit" name="" value="S'inscrire">
+        <input type="submit" value="S'inscrire"/>
       </div>
     </form>
   </body>

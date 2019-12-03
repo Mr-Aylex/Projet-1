@@ -1,31 +1,100 @@
 body{
-  background-color:#2f3542;
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background-color:#0c2461;
+}
+label:hover{
+  color:#0c2461;
+  transition: 0.50s;
 }
 
+
+h1:hover{
+  color:#0c2461;
+  transition: 0.50s;
+}
 .box{
 
   position:absolute;
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
-  width:350px;
-  height:420px;
-  box-sizing: border-box;
+  width:400px;
+  padding:40px;
   padding:80px 40px;
-  background-color:#f1f2f6;
-  border-radius:15px 20px;
+  background-color:rgba(0,0,0,.8);
+  box-sizing:border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  border-radius: 10px;
+
 
 }
 
-.box input["password"],input["mail"]{
-  background: none;
-  display: block;
-  margin:20px auto;
-  text-align:center;
-  border:2px solid #3498db;
-  padding:14px 10px ;
-  outline:none;
+
+
+a{
+text-decoration:none;
+color:#0c2461;
+}
+h1{
+  margin:0 0 30px;
+  padding:0;
   color:white;
-  border-radius:24px;
-  transition:0.25s;
+  text-align:center;
+}
+.box .inputbox{
+  position: relative;
+}
+
+.box .inputbox input{
+  width:100%;
+  padding:10px 0;
+  font-size:16px ;
+  color:white;
+  letter-spacing: 1px ;
+  margin-bottom: 30px;
+  outline:none;
+  background:transparent;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid white;
+  font-size: 1.4rem;
+  color: #ccc;
+}
+
+
+
+.box .inputbox label {
+  position:absolute;
+  top:0;
+  left:0;
+  padding:10px 0;
+  font-size: 16px;
+  color:#fff;
+  pointer-events:none;
+  transition:.5s;
+}
+
+label{
+  top:10px
+  left:0;
+  color:white;
+  font-size: 18px;
+}
+
+.label:hover{
+  top:10px;
+}
+
+
+.box input[type="submit"] {
+  background: transparent;
+  border :none;
+  outline:none;
+  color:#fff;
+  background:#0c2461;
+  padding:10px 20px;
+  cursor:pointer;
+  boder-radius:5px ;
 }
