@@ -7,6 +7,5 @@
   </head>
   <body>
     <?php include "navbar.php" ?>
-    <h1>Menu</h1>
   </body>
 </html>
