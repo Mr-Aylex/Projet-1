@@ -19,14 +19,14 @@ session_start();
     <form class="box" action="page_principale.php" method="post">
       <h1>Connexion</h1>
 
-      <label class="label" >Adresse Mail</label>
+      <label class="label" >Entrez votre adresse Mail : </label>
       <div class="inputbox">
 
         <input  type="Mail" name="mail" placeholder="Mail" required=""/>
 
       </div>
 
-      <label class="label">Mot de Passe</label>
+      <label class="label">Entrez votre mot de Passe :</label>
       <div class="inputbox" >
 
         <input type="password" name="mot_de_passe" placeholder="Mot de passe" required=""/>

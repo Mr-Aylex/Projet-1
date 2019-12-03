@@ -37,10 +37,10 @@
       <div class="select">
 
         <select class="" name="classe">
-          <option value="STI2D">bac STI2D</option>
-          <option value="TU">bac pro TU</option>
-          <option value="MEI">bac pro MEI</option>
-          <option value="SN">bac pro SN</option>
+          <option value="STI2D">Bac STI2D</option>
+          <option value="TU">Bac pro TU</option>
+          <option value="MEI">Bac pro MEI</option>
+          <option value="SN">Bac pro SN</option>
           <option value="CPRP">BTS CPRP</option>
           <option value="SLAM">BTS SIO option SLAM</option>
           <option value="SISR">BTS SIO option SISR</option>
