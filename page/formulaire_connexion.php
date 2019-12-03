@@ -9,26 +9,23 @@ session_start();
   <head>
     <meta charset="utf-8">
 
-        <link rel="stylesheet" href="formulaire.css">
+        <link rel="stylesheet" href="..\formulaire.css">
     <title></title>
 
   </head>
   <body>
 
-    <div class="box">
-    <form class="" action="page_principale.php" method="post">
 
+    <form class="box" action="page_principale.php" method="post">
+      <h1>Connexion</h1>
 
-
-      <div>
-        <label>Adresse Mail</label>
-        <input type="Mail" name="mail" placeholder="Mail"/>
+      <div >
+        <input  type="Mail" name="mail" placeholder="Mail"/>
       </div>
 
 
-      <div>
-        <label>Mot de passe</label>
-        <input type="Mot_de_passe" name="mot_de_passe" placeholder="Mot de passe"/>
+      <div >
+        <input type="password" name="mot_de_passe" placeholder="Mot de passe"/>
       </div>
 
       <div>
@@ -40,6 +37,6 @@ session_start();
         <a href="mot_de_passe_oublie.php">Mot de passe oublié</a>
       </div>
     </form>
-</div>
+
   </body>
 </html>
