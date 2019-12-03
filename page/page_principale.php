@@ -5,7 +5,7 @@
     <title></title>
     <link rel="stylesheet" href="..\CSS\page_principal.css">
   </head>
-  <body>
+  <body class="font">
     <?php include "navbar.php" ?>
   </body>
 </html>
