@@ -5,26 +5,26 @@
     <title>Inscription</title>
   </head>
   <body>
-    <form class="" action="#" method="post">
+    <form class="" action="..\traitement\traitement_inscription.php" method="post">
       <div class="">
         <label for="">nom</label>
-        <input type="text" name="nom" value="">
+        <input type="text" name="nom" >
       </div>
       <div class="">
         <label for="">prenom</label>
-        <input type="text" name="nom" value="">
+        <input type="text" name="prenom" value="">
       </div>
       <div class="">
         <label for="">age</label>
-        <input type="text" name="nom" value="">
+        <input type="number" name="age" value="">
       </div>
       <div class="">
         <label for="">mail</label>
-        <input type="text" name="nom" value="">
+        <input type="text" name="mail" value="">
       </div>
       <div class="">
         <label for="">adresse</label>
-        <input type="text" name="nom" value="">
+        <input type="text" name="adresse" value="">
       </div>
       <div class="">
         <label for="">classe</label>
@@ -44,10 +44,13 @@
       </div>
       <div class="">
         <label for="">statut</label>
-        <select class="" name="status">
+        <select class="" name="statut">
           <option value="parent">Parent</option>
           <option value="eleve">Eleve</option>
         </select>
+      </div>
+      <div class="">
+        <input type="submit" name="" value="S'inscrire">
       </div>
     </form>
   </body>
