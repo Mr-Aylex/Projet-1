@@ -5,7 +5,8 @@
       <link rel="stylesheet" href="../CSS/formulaire2.css">
     <title>Inscription</title>
   </head>
-  <body>
+  <body class="fond">
+    <?php include "navbar.php" ?>
     <form class="box" action="..\traitement\traitement_inscription.php" method="post">
   <label class="label" for="">Nom</label>
       <div class="inputbox">

@@ -13,20 +13,20 @@ session_start();
     <title></title>
 
   </head>
-  <body>
-
+  <body class="fond">
+    <?php include "navbar.php" ?>
 
     <form class="box" action="page_principale.php" method="post">
       <h1>Connexion</h1>
 
-      <label class="label" >Entrez votre adresse Mail : </label>
+      <label class="label" >Entrez votre adresse mail : </label>
       <div class="inputbox">
 
         <input  type="Mail" name="mail" placeholder="Mail" required=""/>
 
       </div>
 
-      <label class="label">Entrez votre mot de Passe :</label>
+      <label class="label">Entrez votre mot de passe :</label>
       <div class="inputbox" >
 
         <input type="password" name="mot_de_passe" placeholder="Mot de passe" required=""/>
