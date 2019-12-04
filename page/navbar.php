@@ -7,23 +7,50 @@
           <a class="lien" href="..\page\page_principale.php">Icon</a>
       </li>
       <li class="item"class="boutton">
-          <a class="lien" href="#">Formation</a>
+        <div class="independant">
+             <a class="lien" href="#">Formation</a>
+        </div>
+
       </li>
       <li class="item"class="boutton">
-          <a class="lien" href="#">Entreprise</a>
+        <div class="independant">
+             <a class="lien" href="#">Entreprise</a>
+        </div>
+
       </li>
       <li class="item"class="boutton">
-          <a class="lien" href="#">Vie</a>
+        <div class="independant">
+               <a class="lien" href="#">Vie</a>
+        </div>
+
       </li>
       <li class="item"class="boutton">
-          <a class="lien" href="#">Voyage</a>
+        <div class="independant">
+              <a class="lien" href="#">Voyage</a>
+        </div>
+
       </li>
       <li class="item"class="boutton">
-          <a class="lien" href="formulaire_connexion.php">Connexion</a>
+        <div class="independant">
+           <a class="lien" href="formulaire_connexion.php">Connexion</a>
+        </div>
+
       </li>
       <li class="item"class="boutton">
+        <div class="independant">
           <a class="lien" href="formulaire_inscription_parent.php">Inscription</a>
+        </div>
+
       </li>
+
+
+        <li class="item"class="boutton">
+          <div class="independant">
+            <a class="lien" href="formulaire_inscription_parent.php">Déconnecter</a>
+                </div>
+        </li>
+
+
     </ul>
 
   </section>
