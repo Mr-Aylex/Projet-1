@@ -40,6 +40,8 @@ session_start();
 
       <div>
         <a href="mot_de_passe_oublie.php">Mot de passe oublié?</a>
+
+        <a href="formulaire_inscription_eleve.php">Inscription</a>
       </div>
     </form>
 
