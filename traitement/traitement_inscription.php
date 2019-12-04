@@ -22,6 +22,16 @@ else {
   {
     die('Erreur:'.$e->getMessage());
   }
+  $req = $bdd->query('SELECT nom, prenom, mail FROM profil');
+  $donne=$req->fetchall()
+  foreach ($donne as $key => $value) {
+    if ($value['nom']==$prenom and $value['prenom']==$prenom) {
+      header('Location: ..\page\formulaire_inscription.php');
+    }
+    elseif ($value['mail']==$mail) {
+      header('Location: ..\page\formulaire_inscription.php');
+    }
+  }
 
   $req = $bdd->prepare('INSERT INTO profil(nom, prenom, age, mail, adresse, statut, classe, mot_de_passe) VALUES(:nom, :prenom, :age, :mail, :adresse, :statut, :classe , :mdp)');
   $req->execute(array(

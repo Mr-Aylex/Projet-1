@@ -22,7 +22,7 @@
           <a class="lien" href="formulaire_connexion.php">Connexion</a>
       </li>
       <li class="item"class="boutton">
-          <a class="lien" href="formulaire_inscription.php">Inscription</a>
+          <a class="lien" href="formulaire_inscription_parent.php">Inscription</a>
       </li>
     </ul>
 

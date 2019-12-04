@@ -26,7 +26,6 @@
         <label class="label"  for="">Mail</label>
       </div>
       <div class="d">
-
         <div class="inputbox">
 
           <input type="text" name="mail"  placeholder="Mail"value=""/>
@@ -36,38 +35,10 @@
 
           <input type="text" name="adresse" placeholder="Adresse">
         </div>
-        <label class="label" for="">Classe</label>
-        <div class="select">
-
-          <select class="" name="classe">
-            <option value="STI2D">Bac STI2D</option>
-            <option value="TU">Bac pro TU</option>
-            <option value="MEI">Bac pro MEI</option>
-            <option value="SN">Bac pro SN</option>
-            <option value="CPRP">BTS CPRP</option>
-            <option value="SLAM">BTS SIO option SLAM</option>
-            <option value="SISR">BTS SIO option SISR</option>
-          </select>
-        </div>
 
         <label class="label" for="">Mot de passe</label>
         <div class="inputbox">
           <input type="password" name="mdp" placeholder="Mot de passe"/>
-        </div>
-
-
-        <div class="select">
-
-
-          <label for="">Statut</label>
-          <div class="inputbox">
-
-            <select class="" name="statut">
-              <option value="parent">Parent</option>
-              <option value="eleve">Eleve</option>
-            </select>
-          </div>
-
         </div>
       </div>
       <div class="">
