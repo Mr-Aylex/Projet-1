@@ -4,7 +4,7 @@
   <section >
     <ul class="navbarH">
       <li class="item"class="boutton">
-          <a class="lien" href="#">Icon</a>
+          <a class="lien" href="..\page\page_principale.php">Icon</a>
       </li>
       <li class="item"class="boutton">
           <a class="lien" href="#">Formation</a>
@@ -20,6 +20,9 @@
       </li>
       <li class="item"class="boutton">
           <a class="lien" href="formulaire_connexion.php">Connexion</a>
+      </li>
+      <li class="item"class="boutton">
+          <a class="lien" href="formulaire_inscription.php">Inscription</a>
       </li>
     </ul>
 
