@@ -1,7 +1,7 @@
 <?php
-
+session_start();
 try {
-  $bdd = new PDO('mysql:host=localhost;dbname=profil;charset=utf8','root','');
+  $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
 
 }
 catch(Exception $e)
@@ -12,17 +12,21 @@ catch(Exception $e)
 
 $mail = $_POST["mail"];
 $mot_de_passe = md5($_POST["mot_de_passe"]);
-
-$req = $bdd->preprare('SELECT *FROM  profil WHERE mail=:mail and mot_de_passe=:mot_de_passe');
+$req = $bdd->prepare('SELECT * FROM  profil WHERE mail=:mail and mot_de_passe=:mot_de_passe');
 $req->execute(array('mail'=>$mail,'mot_de_passe'=>$mot_de_passe));
 $connexion = $req->fetch();
-
+var_dump($connexion);
 if($connexion == true){
-  header("Location:page_principale.php");
+    $_SESSION['id']=$value['id'];
+    $_SESSION['nom']=$value['nom'];
+    $_SESSION['prenom']=$value['prenom'];
+  
+  var_dump($_SESSION);
+  //header("Location: ../page/page_principale.php");
 }
 
 else{
-  header("Location:formulaire_connexion.php");
+  //header("Location: ../page/formulaire_connexion.php");
 }
 
 ?>

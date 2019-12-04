@@ -7,7 +7,7 @@
   </head>
   <body class="fond">
     <!--<?php include "navbar.php" ?>-->
-    <form class="box" action="..\traitement\traitement_inscription.php" method="post">
+    <form class="box" action="..\traitement\traitement_inscription_eleve.php" method="post">
       <div class="g">
 
         <label class="label" for="">Nom</label>
