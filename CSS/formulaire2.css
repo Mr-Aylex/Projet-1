@@ -9,6 +9,7 @@ body{
 .box{
  width:400px;
  padding:40px;
+ height: 500px;
  position:absolute;
  top:50%;
  left:50%;
