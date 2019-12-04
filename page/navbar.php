@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="..\CSS\navbar_style.css">
+<!--<link rel="stylesheet" href="..\CSS\navbar_style.css">-->
 <section>
   <section class="navbarH">
     <ul>
@@ -46,7 +46,7 @@
 
         <li class="item"class="boutton">
           <div class="independant">
-            <a class="lien" href="formulaire_inscription_parent.php">Déconnecter</a>
+            <a class="lien" href="..\traitement\se_deconnecter.php">Déconnecter</a>
                 </div>
         </li>
 
