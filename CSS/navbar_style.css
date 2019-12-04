@@ -7,6 +7,10 @@
   border-radius: 6px;
   border-color: #A2A6A6;
 }
+
+.top{
+  padding-top: 20px;
+}
 .navbarH{
   display: block;
 }
