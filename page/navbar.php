@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="..\CSS\navbar_style.css">
 <section>
-  <section class="top">
-    <ul class="navbarH">
+  <section class="navbarH">
+    <ul>
       <li class="item"class="boutton">
           <a class="lien" href="..\page\page_principale.php">Icon</a>
       </li>
