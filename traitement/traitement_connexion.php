@@ -17,16 +17,14 @@ $req->execute(array('mail'=>$mail,'mot_de_passe'=>$mot_de_passe));
 $connexion = $req->fetch();
 var_dump($connexion);
 if($connexion == true){
-    $_SESSION['id']=$value['id'];
-    $_SESSION['nom']=$value['nom'];
-    $_SESSION['prenom']=$value['prenom'];
-  
-  var_dump($_SESSION);
-  //header("Location: ../page/page_principale.php");
+    $_SESSION['id']=$connexion['id'];
+    $_SESSION['nom']=$connexion['nom'];
+    $_SESSION['prenom']=$connexion['prenom'];
+  header("Location: ../page/page_principale.php");
 }
 
 else{
-  //header("Location: ../page/formulaire_connexion.php");
+  header("Location: ../page/formulaire_connexion.php");
 }
 
 ?>
