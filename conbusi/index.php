@@ -583,7 +583,7 @@
                         <div class="footer_widget">
                             <div class="footer_logo">
                                 <a href="#">
-                                    <img src="img/footer_logo.png" alt="">
+                                    <img src="img/logo.png" height="80px" width="100px" alt="">
                                 </a>
                             </div>
                             <p>
@@ -591,25 +591,7 @@
                                     01 48 37 74 26 <br>
                                     5 avenue du Général de Gaulle - 93440 Dugny
                             </p>
-                            <div class="socail_links">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <!--<li>
-                                        <a href="#">
-                                            <i class="ti-twitter-alt"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>-->
-                                </ul>
-                            </div>
+
 
                         </div>
                     </div>
@@ -631,11 +613,31 @@
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                    Lien utile
+                                    Lien utile :
                             </h3>
                             <ul>
-                                <li><a href="#">Pronote</a></li>
-                                <li><a href="#"> Contact</a></li>
+
+                                <li><img style='margin-left:-40px;'src="img/banner/pronote.png" height="40px " width="40px" alt=""><a style="margin-left:10px;" href="https://0931573e.index-education.net/pronote/">  Pronote</a></li>
+                                <li><img style='margin-left:-40px;'src="img/banner/contact.png" height="40px " width="40px" alt=""><a style="margin-left:10px;"href="#"> Contact</a></li>
+                                <div class="socail_links">
+                                    <ul>
+                                        <li style='margin-left:-40px;'>
+                                            <a href="https://www.facebook.com/robertschumandugny">
+                                                <i  class="ti-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <!--<li>
+                                            <a href="#">
+                                                <i class="ti-twitter-alt"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>-->
+                                    </ul>
+                                </div>
                             </ul>
                         </div>
                     </div>
@@ -661,7 +663,7 @@
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<!--Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>-->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Micromagic<i class="fa fa-heart-o" aria-hidden="true"></i><a href="http://www.lyceerobertschuman.com/" target="_blank">Tous droits réservés</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
