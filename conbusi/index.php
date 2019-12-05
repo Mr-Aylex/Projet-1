@@ -210,7 +210,7 @@
                             <img src="img/svg_icon/group.svg" alt="">
                         </div>
                         <h3> <span class="counter">200</span> <span> +</span> </h3>
-                        <p>Team Members</p>
+                        <p>Nombre d'entreprise en partenariat</p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3">
@@ -219,7 +219,7 @@
                             <img src="img/svg_icon/cart.svg" alt="">
                         </div>
                         <h3> <span class="counter">97</span> <span>%</span> </h3>
-                        <p>Business Success</p>
+                        <p>Pourcentage Bac</p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3">
@@ -228,7 +228,7 @@
                             <img src="img/svg_icon/heart.svg" alt="">
                         </div>
                         <h3> <span class="counter">5628</span></h3>
-                        <p>Happy Client</p>
+                        <p>Nombre d'élves</p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3">
@@ -236,8 +236,8 @@
                         <div class="counter_icon">
                             <img src="img/svg_icon/respect.svg" alt="">
                         </div>
-                        <h3> <span class="counter">5637</span> </h3>
-                        <p>Business Done</p>
+                        <h3> <span class="counter">1300</span> <span>€</span></h3>
+                        <p>Coût de la scolarité</p>
                     </div>
                 </div>
             </div>
@@ -615,20 +615,17 @@
                     </div>
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
-                            <h3 class="footer_title">
-                                    Lien utile :
-                            </h3>
+                            <h3 style="margin-left:-35px;" class="footer_title">Lien utile :</h3>
                             <ul>
 
-                                <li><img style='margin-left:-40px;'src="img/banner/pronote.png" height="40px " width="40px" alt=""><a style="margin-left:10px;" href="https://0931573e.index-education.net/pronote/">  Pronote</a></li>
+                                <li><img href="https://0931573e.index-education.net/pronote/" style='margin-left:-40px;'src="img/banner/pronote.png" height="40px " width="40px" alt=""><a style="margin-left:10px;" href="https://0931573e.index-education.net/pronote/">  Pronote</a></li>
                                 <li><img style='margin-left:-40px;'src="img/banner/contact.png" height="40px " width="40px" alt=""><a style="margin-left:10px;"href="#"> Contact</a></li>
-                                <div class="socail_links">
-                                    <ul>
-                                        <li style='margin-left:-40px;'>
-                                            <a href="https://www.facebook.com/robertschumandugny">
-                                                <i  class="ti-facebook"></i>
-                                            </a>
-                                        </li>
+
+
+
+                                            <li>  <img href="https://www.facebook.com/robertschumandugny" style='margin-left:-40px;'src="img/banner/facebook.png" height="40px " width="40px" alt=""><a style="margin-left:10px;"href="https://www.facebook.com/robertschumandugny">  Facebook</a></li>
+
+
                                         <!--<li>
                                             <a href="#">
                                                 <i class="ti-twitter-alt"></i>
@@ -639,8 +636,7 @@
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>-->
-                                    </ul>
-                                </div>
+
                             </ul>
                         </div>
                     </div>
@@ -666,7 +662,7 @@
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Micromagic<i class="fa fa-heart-o" aria-hidden="true"></i><a href="http://www.lyceerobertschuman.com/" target="_blank">Tous droits réservés</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Micromagic<i class="fa fa-heart-o" aria-hidden="true"></i><a href="index.php" target="_blank">Tous droits réservés</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
