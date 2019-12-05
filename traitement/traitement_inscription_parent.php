@@ -23,24 +23,30 @@ else {
           'nom'=>$_POST['nom'],
           'prenom'=>$_POST['prenom']));
   $donne=$req->fetch();
-  if (isset($donne)) {
-    header('Location: ..\page\formulaire_inscription_parent.php');
+  var_dump($donne);
+  if (empty($donne)) {
+    echo "nom";
+    //header('Location: ..\page\formulaire_inscription_parent.php');
   }
   else {
     $req = $bdd->prepare('SELECT mail FROM profil_parent WHERE mail=:mail');
     $req->execute(array(
             'mail'=>$_POST['mail']));
     $donne=$req->fetch();
+    var_dump($donne);
     if (isset($donne)) {
-      header('Location: ..\page\formulaire_inscription_parent.php');
+      echo "mail";
+      //header('Location: ..\page\formulaire_inscription_parent.php');
     }
     else {
       $req = $bdd->prepare('SELECT numero FROM profil_parent WHERE numero=:numero');
       $req->execute(array(
               'numero'=>$_POST['numero']));
       $donne=$req->fetch();
+      var_dump($donne);
       if (isset($donne)) {
-        header('Location: ..\page\formulaire_inscription_parent.php');
+        echo "numero";
+        //header('Location: ..\page\formulaire_inscription_parent.php');
       }
       else {
         $req = $bdd->prepare('INSERT INTO profil_parent(nom, prenom, mail, numero, profession, adresse, mot_de_passe) VALUES(:nom, :prenom, :mail, :profession, :numero, :adresse, :mdp)');
@@ -52,8 +58,9 @@ else {
           'adresse'=>$adresse,
           'mdp'=>$mdp,
           'profession'=>$profession));
-          header('Location: ..\page\formulaire_connexion.php');
+          //header('Location: ..\page\formulaire_connexion.php');
       }
     }
   }
+}
  ?>
