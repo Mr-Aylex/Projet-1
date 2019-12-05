@@ -35,95 +35,10 @@
 
     <!-- header-start -->
     <header>
-            <div class="header-area ">
-                <div class="header-top_area d-none d-lg-block">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-5 col-md-5 ">
-                                <div class="header_left">
-                                    <p>Welcome to Conbusi consulting service</p>
-                                </div>
-                            </div>
-                            <div class="col-xl-7 col-md-7">
-                                <div class="header_right d-flex">
-                                        <div class="short_contact_list">
-                                                <ul>
-                                                    <li><a href="#"> <i class="fa fa-envelope"></i> info@docmed.com</a></li>
-                                                    <li><a href="#"> <i class="fa fa-phone"></i> 1601-609 6780</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="social_media_links">
-                                                <a href="#">
-                                                    <i class="fa fa-linkedin"></i>
-                                                </a>
-                                                <a href="#">
-                                                    <i class="fa fa-facebook"></i>
-                                                </a>
-                                                <a href="#">
-                                                    <i class="fa fa-google-plus"></i>
-                                                </a>
-                                            </div>
-                                </div>
-    
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="sticky-header" class="main-header-area">
-                    <div class="container">
-                        <div class="header_bottom_border">
-                            <div class="row align-items-center">
-                                <div class="col-xl-3 col-lg-2">
-                                    <div class="logo">
-                                        <a href="index.html">
-                                            <img src="img/logo.png" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 col-lg-7">
-                                    <div class="main-menu  d-none d-lg-block">
-                                        <nav>
-                                            <ul id="navigation">
-                                                <li><a href="index.html">home</a></li>
-                                                <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                                    <ul class="submenu">
-                                                            <li><a href="case_details.html">case details</a></li>
-                                                            <li><a href="about.html">about</a></li>
-                                                            <li><a href="elements.html">elements</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="study.html">Case study</a></li>
-                                                <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                                    <ul class="submenu">
-                                                        <li><a href="blog.html">blog</a></li>
-                                                        <li><a href="single-blog.html">single-blog</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a class="active" href="contact.html">Contact</a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                                    <div class="Appointment">
-                                        <div class="book_btn d-none d-lg-block">
-                                            <a  href="#">Get a Quote</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="mobile_menu d-block d-lg-none"></div>
-                                </div>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-            </div>
+            <?php include "header.html" ?>
         </header>
         <!-- header-end -->
-    
+
         <!-- bradcam_area  -->
         <div class="bradcam_area bradcam_bg_1">
                 <div class="container">
@@ -179,10 +94,10 @@
                     </script>
                     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap">
                     </script>
-    
+
                 </div>
-    
-    
+
+
                 <div class="row">
                     <div class="col-12">
                         <h2 class="contact-title">Get in Touch</h2>
@@ -243,7 +158,7 @@
             </div>
         </section>
     <!-- ================ contact section end ================= -->
-    
+
     <!-- footer start -->
     <footer class="footer">
             <div class="footer_top">
@@ -280,7 +195,7 @@
                                         </li>
                                     </ul>
                                 </div>
-    
+
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-6 col-lg-3">
@@ -295,7 +210,7 @@
                                     <li><a href="#">Food</a></li>
                                     <li><a href="#">Travel</a></li>
                                 </ul>
-    
+
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-6 col-lg-2">
@@ -342,7 +257,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </footer>
         <!--/ footer end  -->
-    
+
         <!-- JS here -->
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="js/vendor/jquery-1.12.4.min.js"></script>
@@ -362,14 +277,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/gijgo.min.js"></script>
-    
+
         <!--contact js-->
         <script src="js/contact.js"></script>
         <script src="js/jquery.ajaxchimp.min.js"></script>
         <script src="js/jquery.form.js"></script>
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/mail-script.js"></script>
-    
+
         <script src="js/main.js"></script>
         <script>
             $('#datepicker').datepicker({
@@ -383,9 +298,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                 icons: {
                  rightIcon: '<span class="fa fa-caret-down"></span>'
              }
-    
+
             });
         </script>
     </body>
-    
+
     </html>

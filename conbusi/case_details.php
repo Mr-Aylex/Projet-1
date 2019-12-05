@@ -69,13 +69,13 @@
                     </div>
                 </div>
             </div>
-            <div id="sticky-header" class="main-header-area">
+            <div id="sticky-header" class="main-header-area details_nav">
                 <div class="container">
                     <div class="header_bottom_border">
                         <div class="row align-items-center">
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <img src="img/logo.png" alt="">
                                     </a>
                                 </div>
@@ -84,19 +84,19 @@
                                 <div class="main-menu  d-none d-lg-block">
                                   <nav>
                                       <ul id="navigation">
-                                          <li><a class="active" href="index.html">Menu</a></li>
+                                          <li><a class="active" href="index.php">Menu</a></li>
                                           <li><a href="#">Vie <i class="ti-angle-down"></i></a>
                                               <ul class="submenu">
-                                                      <li><a href="case_details.html">Projet</a></li>
-                                                      <li><a href="about.html">Voyage</a></li>
+                                                      <li><a href="case_details.php">Projet</a></li>
+                                                      <li><a href="about.php">Voyage</a></li>
                                               </ul>
                                           </li>
-                                          <li><a href="services.html">Entreprise</a></li>
-                                          <li><a href="study.html">Formation</a></li>
+                                          <li><a href="services.php">Entreprise</a></li>
+                                          <li><a href="study.php">Formation</a></li>
                                           <li><a href="#">Informations <i class="ti-angle-down"></i></a>
                                               <ul class="submenu">
-                                                  <li><a href="blog.html"> Documents </a></li>
-                                                  <li><a href="single-blog.html">Date</a></li>
+                                                  <li><a href="blog.php"> Documents </a></li>
+                                                  <li><a href="single-blog.php">Date</a></li>
                                               </ul>
                                           </li>
 
@@ -123,118 +123,109 @@
     </header>
     <!-- header-end -->
 
-    <!-- bradcam_area  -->
-    <div class="bradcam_area bradcam_bg_1">
-            <div class="container">
+    <div class="case_details_area">
+        <div class="container">
+            <div class="border_bottom">
+                    <div class="row ">
+                            <div class="col-xl-12">
+                                <div class="details_title">
+                                    <span>Finance Solution</span>
+                                    <h3>Consumer Products Consulting</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="case_thumb">
+                                    <img src="img/case/img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-xl-9">
+                                <div class="details_main_wrap">
+                                    <p class="details_info">
+                                            “Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor
+                                            sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.
+                                            Fusce ac mattis nulla. Morbi eget ornare dui.
+                                    </p>
+                                    <div class="single_details">
+                                        <span>Problem</span>
+                                        <p>Esteem spirit temper too say adieus who direct esteem. It esteems luckily or picture placing drawing. Apartments frequently or motionless on reasonable sed do eiusmod tempor inciunt ut labore et dolore magna liqua.abore et dolore incididunt ut labore et dolore magna liqua abore et dolore</p>
+                                    </div>
+                                    <div class="single_details">
+                                        <span>Solution</span>
+                                        <p>Esteem spirit temper too say adieus who direct esteem. It esteems luckily or picture placing drawing. Apartments frequently or motionless on reasonable sed do eiusmod tempor inciunt ut labore et dolore magna liqua.abore et dolore incididunt ut labore et dolore magna liqua abore et dolore</p>
+                                    </div>
+                                    <div class="single_details">
+                                        <span>Result</span>
+                                        <p>Esteem spirit temper too say adieus who direct esteem. It esteems luckily or picture placing drawing. Apartments frequently or motionless on reasonable sed do eiusmod tempor inciunt ut labore et dolore magna liqua.abore et dolore incididunt ut labore et dolore magna liqua abore et dolore</p>
+                                    </div>
+                                    <div class="single_details mb-60">
+                                        <ul>
+                                            <li>
+                                                <a href="#"> <i class="fa fa-facebook"></i> Facebook </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> <i class="fa fa-twitter"></i> Twitter </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> <i class="fa fa-pinterest-p"></i> Pinterest </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- case_study_area  -->
+    <div class="case_study_area case_page">
+        <div class="container">
                 <div class="row">
-                    <div class="col-xl-12">
-                        <div class="bradcam_text">
-                            <h3>service</h3>
+                        <div class="col-xl-12">
+                            <div class="section_title mb-40">
+                                <h3>Related Cases</h3>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!--/ bradcam_area  -->
-
-    <!-- service_area_start -->
-    <div class="service_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section_title text-center mb-50">
-                        <h3>What we Do?</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-4 col-md-6 col-lg-4">
-                    <div class="single_service text-center">
-                        <div class="service_icon">
-                            <img src="img/svg_icon/1.svg" alt="">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-6 col-lg-4">
+                                <div class="single_case">
+                                        <div class="case_thumb">
+                                                <img src="img/case/1.png" alt="">
+                                            </div>
+                                    <div class="case_heading">
+                                            <span>Finance Solution</span>
+                                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                                    </div>
+                                </div>
                         </div>
-                        <h3>Marketing & SEO Agency</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                        <a href="#" class="learn_more">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4">
-                    <div class="single_service text-center">
-                        <div class="service_icon">
-                            <img src="img/svg_icon/2.svg" alt="">
+                        <div class="col-xl-4 col-md-6 col-lg-4">
+                                <div class="single_case">
+                                        <div class="case_thumb">
+                                                <img src="img/case/2.png" alt="">
+                                            </div>
+                                    <div class="case_heading">
+                                            <span>Finance Solution</span>
+                                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                                    </div>
+                                </div>
                         </div>
-                        <h3>Startup Agency</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                        <a href="#" class="learn_more">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4">
-                    <div class="single_service text-center">
-                        <div class="service_icon">
-                            <img src="img/svg_icon/3.svg" alt="">
+                        <div class="col-xl-4 col-md-6 col-lg-4">
+                                <div class="single_case">
+                                        <div class="case_thumb">
+                                                <img src="img/case/3.png" alt="">
+                                            </div>
+                                    <div class="case_heading">
+                                            <span>Finance Solution</span>
+                                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                                    </div>
+                                </div>
                         </div>
-                        <h3>Corporate Business</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                        <a href="#" class="learn_more">Learn More</a>
                     </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4">
-                    <div class="single_service text-center">
-                        <div class="service_icon">
-                            <img src="img/svg_icon/4.svg" alt="">
-                        </div>
-                        <h3>Finance Solution</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                        <a href="#" class="learn_more">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4">
-                    <div class="single_service text-center">
-                        <div class="service_icon">
-                            <img src="img/svg_icon/5.svg" alt="">
-                        </div>
-                        <h3>Food & Restaurant</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                        <a href="#" class="learn_more">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4">
-                    <div class="single_service text-center">
-                        <div class="service_icon">
-                            <img src="img/svg_icon/6.svg" alt="">
-                        </div>
-                        <h3>Travel Agency </h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                        <a href="#" class="learn_more">Learn More</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-    <!-- service_area_end -->
-
-    <div class="contact_form_quote">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5 col-lg-6">
-                    <div class="form_wrap">
-                            <h3>Get Free Quote</h3>
-                            <form action="#">
-                                <input type="text" placeholder="Your Name" >
-                                <input type="email" placeholder="Email" >
-                                <textarea name="#" id="" cols="30" rows="10" placeholder="Message" ></textarea>
-                                <button class="boxed-btn3">Send</button>
-                            </form>
-                    </div>
-                </div>
-                <div class="col-xl-6 offset-xl-1 col-lg-6">
-                    <div class="contact_thumb">
-                        <img src="img/banner/contact_thumb.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- /case_study_area  -->
 
     <!-- Information_area  -->
     <div class="Information_area overlay">
