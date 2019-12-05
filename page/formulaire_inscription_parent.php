@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-      <link rel="stylesheet" href="../CSS/formulaire2.css">
+    <!--  <link rel="stylesheet" href="../CSS/formulaire2.css">-->
     <title>Inscription</title>
   </head>
   <body class="fond">
@@ -34,6 +34,11 @@
         <label class="label"  for="">Profession</label>
         <div class="inputbox">
           <input type="text" name="profession" placeholder="Profession"/>
+        </div>
+
+        <label class="label" for="">Numéro de téléphone</label>
+        <div class="inputbox">
+          <input type="text" name="numero" placeholder="Numéro"/>
         </div>
 
         <label class="label" for="">Mot de passe</label>

@@ -1,5 +1,5 @@
 <?php
-if (empty($_POST['nom']) or empty($_POST['prenom']) or empty($_POST['adresse']) or empty($_POST['mail']) or empty($_POST['mdp']) or empty($_POST['profession'])){
+if (empty($_POST['nom']) or empty($_POST['prenom']) or empty($_POST['adresse']) or empty($_POST['mail']) or empty($_POST['mdp']) or empty($_POST['profession']) or empty($_POST['numero'])){
       header('Location: ..\page\formulaire_inscription_parent.php');
   }
 else {
@@ -7,6 +7,7 @@ else {
   $prenom=$_POST['prenom'];
   $adresse=$_POST['adresse'];
   $mail=$_POST['mail'];
+  $numero=$_POST['numero'];
   $profession=$_POST['profession'];
   $mdp=md5($_POST['mdp']);
   try
@@ -17,7 +18,7 @@ else {
   {
     die('Erreur:'.$e->getMessage());
   }
-  $req = $bdd->query('SELECT nom, prenom, mail FROM profil');
+  $req = $bdd->query('SELECT nom, prenom, mail, numero FROM profil_parent');
   $donne=$req->fetchall();
 
   foreach ($donne as $key => $value) {
@@ -25,6 +26,9 @@ else {
       header('Location: ..\page\formulaire_inscription_parent.php');
     }
     elseif ($value['mail']==$mail) {
+      header('Location: ..\page\formulaire_inscription_parent.php');
+    }
+    elseif ($value['numero']==$numero) {
       header('Location: ..\page\formulaire_inscription_parent.php');
     }
     else {
