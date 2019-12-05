@@ -184,10 +184,10 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="about_text">
-                        <h3>Why our Consulting?</h3>
+                        <h3>Comment inscrire son enfant</h3>
                         <p>Esteem spirit temper too say adieus who direct esteem.
                             It esteems luckily or picture placing drawing. Apartments frequently or motionless on reasonable.</p>
-                            <a href="#" class="boxed-btn3">About Us</a>
+                            <a href="..\page\formulaire_inscription_eleve.php" class="boxed-btn3">Inscrire son enfant</a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
