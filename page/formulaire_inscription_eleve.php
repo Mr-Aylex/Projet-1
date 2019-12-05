@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php session_start() ?>
+<?php if (empty($_SESSION)) {
+  header("Location: formulaire_connexion.php");
+} else {?>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -54,3 +58,4 @@
     </form>
   </body>
 </html>
+<?php } ?>
