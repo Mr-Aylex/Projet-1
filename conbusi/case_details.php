@@ -1,4 +1,5 @@
 <!doctype html>
+<?php session_start() ?>
 <html class="no-js" lang="zxx">
 
 <head>
@@ -106,9 +107,16 @@
                             </div>
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
+                                  <?php if (empty($_SESSION)) {?>
                                     <div class="book_btn d-none d-lg-block">
-                                        <a  href="#">Get a Quote</a>
+                                        <a  href="../page/formulaire_connexion.php">Se connecter</a>
                                     </div>
+                                  <?php }
+                                  else {?>
+                                    <div class="book_btn d-none d-lg-block">
+                                        <a  href="..\traitement\se_deconnecter.php">Se deconnecter</a>
+                                    </div>
+                                  <?php } ?>
                                 </div>
                             </div>
                             <div class="col-12">
