@@ -1,8 +1,4 @@
-<?php
-
-session_start();
-
-?>
+<?php session_start();?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -14,7 +10,7 @@ session_start();
 
   </head>
   <body class="fond">
-    <?php include "navbar.php" ?>
+    <?php include "header.php" ?>
 
     <form class="box" action="..\traitement\traitement_connexion.php" method="post">
       <h1>Connexion</h1>

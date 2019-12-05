@@ -1,4 +1,16 @@
-<?php session_start() ?>
+<?php// session_start() ?>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/themify-icons.css">
+<link rel="stylesheet" href="css/nice-select.css">
+<link rel="stylesheet" href="css/flaticon.css">
+<link rel="stylesheet" href="css/gijgo.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/slicknav.css">
+<link rel="stylesheet" href="css/style.css">
 <header>
     <div class="header-area ">
         <div class="header-top_area d-none d-lg-block">
@@ -73,7 +85,7 @@
                             <div class="Appointment">
                               <?php if (empty($_SESSION)) {?>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a  href="../page/formulaire_connexion.php">Se connecter</a>
+                                    <a  href="formulaire_connexion.php">Se connecter</a>
                                 </div>
                               <?php }
                               else {?>
