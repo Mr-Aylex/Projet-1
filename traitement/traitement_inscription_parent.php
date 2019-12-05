@@ -18,26 +18,31 @@ else {
   {
     die('Erreur:'.$e->getMessage());
   }
-  $req = $bdd->query('SELECT nom, prenom, mail, numero FROM profil_parent');
-  $donne=$req->fetchall();
-  var_dump($donne);
+  $req = $bdd->prepare('SELECT nom, prenom FROM profil_parent WHERE nom=:nom, prenom=:prenom');
+  $req->execute(array(
+          'nom'=>$_POST['nom'],
+          'prenom'=>$_POST['prenom']));
+  $donne=$req->fetch();
   if (isset($donne)) {
-    foreach ($donne as $key => $value) {
-      echo "boucle";
-      if ($value['nom']==$prenom and $value['prenom']==$prenom) {
-        var_dump($donne);
-        header('Location: ..\page\formulaire_inscription_parent.php');
-      }
-      elseif ($value['mail']==$mail) {
-        var_dump($donne);
-        header('Location: ..\page\formulaire_inscription_parent.php');
-      }
-      elseif ($value['numero']==$numero) {
-        var_dump($donne);
+    header('Location: ..\page\formulaire_inscription_parent.php');
+  }
+  else {
+    $req = $bdd->prepare('SELECT mail FROM profil_parent WHERE mail=:mail');
+    $req->execute(array(
+            'mail'=>$_POST['mail']));
+    $donne=$req->fetch();
+    if (isset($donne)) {
+      header('Location: ..\page\formulaire_inscription_parent.php');
+    }
+    else {
+      $req = $bdd->prepare('SELECT numero FROM profil_parent WHERE numero=:numero');
+      $req->execute(array(
+              'numero'=>$_POST['numero']));
+      $donne=$req->fetch();
+      if (isset($donne)) {
         header('Location: ..\page\formulaire_inscription_parent.php');
       }
       else {
-        var_dump($donne);
         $req = $bdd->prepare('INSERT INTO profil_parent(nom, prenom, mail, numero, profession, adresse, mot_de_passe) VALUES(:nom, :prenom, :mail, :profession, :numero, :adresse, :mdp)');
         $req->execute(array(
           'nom'=>$nom,
@@ -48,20 +53,7 @@ else {
           'mdp'=>$mdp,
           'profession'=>$profession));
           header('Location: ..\page\formulaire_connexion.php');
-        }
       }
+    }
   }
-  else {
-    $req = $bdd->prepare('INSERT INTO profil_parent(nom, prenom, mail, numero, profession, adresse, mot_de_passe) VALUES(:nom, :prenom, :mail, :profession, :numero, :adresse, :mdp)');
-    $req->execute(array(
-      'nom'=>$nom,
-      'prenom'=>$prenom,
-      'mail'=>$mail,
-      'numero'=>$numero,
-      'adresse'=>$adresse,
-      'mdp'=>$mdp,
-      'profession'=>$profession));
-      header('Location: ..\page\formulaire_connexion.php');
-  }
-}
  ?>
