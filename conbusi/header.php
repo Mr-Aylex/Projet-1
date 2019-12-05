@@ -63,6 +63,7 @@
                                                 <li><a href="single-blog.php">Date</a></li>
                                             </ul>
                                         </li>
+                                        <!--<li><a href="..\page\formulaire_inscription_eleve.php">Inscrire son enfant</a></li>-->
 
                                     </ul>
                                 </nav>
