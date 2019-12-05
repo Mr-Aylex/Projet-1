@@ -1,4 +1,5 @@
 <!doctype html>
+<?php session_start() ?>
 <html class="no-js" lang="zxx">
 
 <head>
@@ -38,35 +39,34 @@
         <div class="header-area ">
             <div class="header-top_area d-none d-lg-block">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xl-5 col-md-5 ">
-                            <div class="header_left">
-                                <p>Welcome to Conbusi consulting service</p>
-                            </div>
-                        </div>
-                        <div class="col-xl-7 col-md-7">
-                            <div class="header_right d-flex">
-                                    <div class="short_contact_list">
-                                            <ul>
-                                                <li><a href="#"> <i class="fa fa-envelope"></i> info@docmed.com</a></li>
-                                                <li><a href="#"> <i class="fa fa-phone"></i> 1601-609 6780</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="social_media_links">
-                                            <a href="#">
-                                                <i class="fa fa-linkedin"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fa fa-google-plus"></i>
-                                            </a>
-                                        </div>
-                            </div>
-
-                        </div>
-                    </div>
+                  <div class="row">
+                      <div class="col-xl-5 col-md-5 ">
+                          <div class="header_left">
+                              <p>Bienvenu sur le site du lycée privée et UFA Robert Schuman</p>
+                          </div>
+                      </div>
+                      <div class="col-xl-7 col-md-7">
+                          <div class="header_right d-flex">
+                                  <div class="short_contact_list">
+                                          <ul>
+                                              <li><a href="#"> <i class="fa fa-envelope"></i>administration@lyceerobertschuman.com</a></li>
+                                              <li><a href="#"> <i class="fa fa-phone"></i>01 48 37 74 26</a></li>
+                                          </ul>
+                                      </div>
+                                      <div class="social_media_links">
+                                         <!--<a href="#">
+                                              <i class="fa fa-linkedin"></i>
+                                          </a>-->
+                                          <a href="#">
+                                              <i class="fa fa-facebook"></i>
+                                          </a>
+                                          <!--<a href="#">
+                                              <i class="fa fa-google-plus"></i>
+                                          </a>-->
+                                      </div>
+                          </div>
+                      </div>
+                  </div>
                 </div>
             </div>
             <div id="sticky-header" class="main-header-area details_nav">
@@ -106,9 +106,16 @@
                             </div>
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
+                                  <?php if (empty($_SESSION)) {?>
                                     <div class="book_btn d-none d-lg-block">
-                                        <a  href="#">Get a Quote</a>
+                                        <a  href="../page/formulaire_connexion.php">Se connecter</a>
                                     </div>
+                                  <?php }
+                                  else {?>
+                                    <div class="book_btn d-none d-lg-block">
+                                        <a  href="..\traitement\se_deconnecter.php">Se deconnecter</a>
+                                    </div>
+                                  <?php } ?>
                                 </div>
                             </div>
                             <div class="col-12">
