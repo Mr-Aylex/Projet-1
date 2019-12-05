@@ -70,14 +70,14 @@
                         </div>
                         <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                             <div class="Appointment">
-                              <?php if ($_SESSION==true) {?>
+                              <?php if (empty($_SESSION)) {?>
                                 <div class="book_btn d-none d-lg-block">
                                     <a  href="../page/formulaire_connexion.php">Se connecter</a>
                                 </div>
                               <?php }
-                                      else{?>
+                              else {?>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a  href="../page/se_deconnecter.php">Se deconnecter</a>
+                                    <a  href="..\traitement\se_deconnecter.php">Se deconnecter</a>
                                 </div>
                               <?php } ?>
                             </div>
