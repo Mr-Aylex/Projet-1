@@ -12,7 +12,7 @@ catch(Exception $e)
 
 $mail = $_POST["mail"];
 $mot_de_passe = md5($_POST["mot_de_passe"]);
-$req = $bdd->prepare('SELECT * FROM  profil WHERE mail=:mail and mot_de_passe=:mot_de_passe');
+$req = $bdd->prepare('SELECT * FROM  profil_parent WHERE mail=:mail and mot_de_passe=:mot_de_passe');
 $req->execute(array('mail'=>$mail,'mot_de_passe'=>$mot_de_passe));
 $connexion = $req->fetch();
 var_dump($connexion);
