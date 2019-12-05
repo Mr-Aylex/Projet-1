@@ -17,18 +17,17 @@
                                         </ul>
                                     </div>
                                     <div class="social_media_links">
-                                       <a href="#">
+                                       <!--<a href="#">
                                             <i class="fa fa-linkedin"></i>
-                                        </a>
+                                        </a>-->
                                         <a href="#">
                                             <i class="fa fa-facebook"></i>
                                         </a>
-                                        <a href="#">
+                                        <!--<a href="#">
                                             <i class="fa fa-google-plus"></i>
-                                        </a>
+                                        </a>-->
                                     </div>
                         </div>
-
                     </div>
                 </div>
             </div>

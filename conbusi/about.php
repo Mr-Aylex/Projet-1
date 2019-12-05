@@ -35,7 +35,7 @@
 
     <!-- header-start -->
     <header>
-        <?php include "header.html" ?>
+        <?php include "header.php" ?>
     </header>
     <!-- header-end -->
 
