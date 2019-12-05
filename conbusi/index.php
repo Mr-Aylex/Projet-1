@@ -184,10 +184,10 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="about_text">
-                        <h3>Comment inscrire son enfant</h3>
+                        <h4>Comment inscrire son enfant ?</h4>
                         <p>Esteem spirit temper too say adieus who direct esteem.
                             It esteems luckily or picture placing drawing. Apartments frequently or motionless on reasonable.</p>
-                            <a href="..\page\formulaire_inscription_eleve.php" class="boxed-btn3">Inscrire son enfant</a>
+                            <a href="../page/formulaire_inscription_eleve.php" class="boxed-btn3">Inscrire son enfant</a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
@@ -560,14 +560,14 @@
 
    Information_area  -->
 
-   <div style="background-color:white; width:100px; height:200px ;"> </div> 
+   <div style="background-color:white; width:100px; height:200px ;"> </div>
     <div class="Information_area overlay">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-xl-8">
                     <div class="info_text text-center">
                         <h3>Pour plus d'information :</h3>
-                        <a class="boxed-btn3" href="#">01 48 37 74 26</a>
+                        <a class="boxed-btn3" href="#"> Tel : 01 48 37 74 26</a>
                     </div>
                 </div>
             </div>
@@ -588,9 +588,11 @@
                                 </a>
                             </div>
                             <p>
-                                    <a href="#"> administration@lyceerobertschuman.com</a> <br>
-                                    01 48 37 74 26 <br>
-                                    5 avenue du Général de Gaulle - 93440 Dugny
+                                    <a href="#"> E-mail : administration@lyceerobertschuman.com</a> <br>
+                                    Numéro : 01 48 37 74 26 <br>
+                                    Adressse : 5 avenue du Général de Gaulle
+                                    <br>
+                                    Ville : 93440 Dugny
                             </p>
 
 

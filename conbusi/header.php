@@ -18,7 +18,7 @@
                 <div class="row">
                     <div class="col-xl-5 col-md-5 ">
                         <div class="header_left">
-                            <p>Bienvenu sur le site du lycée privée et UFA Robert Schuman</p>
+                            <p>Bienvenue sur le site du lycée privée et UFA Robert Schuman</p>
                         </div>
                     </div>
                     <div class="col-xl-7 col-md-7">
