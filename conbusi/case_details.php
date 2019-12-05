@@ -107,6 +107,7 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
                                   <?php if (empty($_SESSION)) {?>
+<<<<<<< HEAD
                                     <div class="book_btn d-none d-lg-block">
                                         <a  href="../page/formulaire_connexion.php">Se connecter</a>
                                     </div>
@@ -115,6 +116,16 @@
                                     <div class="book_btn d-none d-lg-block">
                                         <a  href="..\traitement\se_deconnecter.php">Se deconnecter</a>
                                     </div>
+=======
+                                    <div class="book_btn d-none d-lg-block">
+                                        <a  href="../page/formulaire_connexion.php">Se connecter</a>
+                                    </div>
+                                  <?php }
+                                  else {?>
+                                    <div class="book_btn d-none d-lg-block">
+                                        <a  href="..\traitement\se_deconnecter.php">Se deconnecter</a>
+                                    </div>
+>>>>>>> 6a4f5b34645d951143474728739dc7f4db7bc6a8
                                   <?php } ?>
                                 </div>
                             </div>
