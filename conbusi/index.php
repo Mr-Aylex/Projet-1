@@ -26,6 +26,17 @@
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <style>
+
+    #fils{
+  width:450px;
+  height:300px;
+  margin-right: auto;
+  margin-left: -5px;
+  margin-top: -35px;
+}
+
+    </style>
 </head>
 
 <body>
@@ -185,14 +196,42 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="about_text">
                         <h4>Comment inscrire son enfant ?</h4>
-                        <p>Esteem spirit temper too say adieus who direct esteem.
-                            It esteems luckily or picture placing drawing. Apartments frequently or motionless on reasonable.</p>
+                        <p>Inscrivez votre enfant dès maintenant en cliquant ci-dessous.</p>
                             <a href="../page/formulaire_inscription_eleve.php" class="boxed-btn3">Inscrire son enfant</a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <div class="about_thumb">
-                        <img src="img/service/about.png" alt="">
+                        <div class="carroussel1" style="margin-top:60px;">
+                          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img class="d-block w-100"style="border-radius:12px;"class="image" src="img/banner/inscription.jpg" alt="First slide">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="img/banner/mecanique.jpg" alt="Second slide">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" style="border-radius:12px;" class="image" src="img/banner/avion.jpg" alt="Third slide">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                            </div>
+
+
+
+
+
+
+
                     </div>
                 </div>
             </div>
@@ -582,19 +621,20 @@
                 <div class="row">
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget">
+                              <div id="fils">
                             <div class="footer_logo">
                                 <a href="#">
-                                    <img src="img/logo.png" height="80px" width="100px" alt="">
+                                    <img style="padding-top:20px;"src="img/logo.png" height="80px" width="100px" alt="">
                                 </a>
                             </div>
-                            <p>
-                                    <a href="#"> E-mail : administration@lyceerobertschuman.com</a> <br>
-                                    Numéro : 01 48 37 74 26 <br>
-                                    Adressse : 5 avenue du Général de Gaulle
-                                    <br>
-                                    Ville : 93440 Dugny
-                            </p>
 
+
+                            E-mail : administration@lyceerobertschuman.com
+
+                          Numéro : 01 48 37 74 26<br>
+                  Adressse : 5 avenue du Général de Gaulle<br>
+                  Ville : 93440 Dugny
+                            </div>
 
                         </div>
                     </div>
