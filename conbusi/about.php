@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Consulting</title>
+    <title>Voyage</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -45,7 +45,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="bradcam_text">
-                            <h3>About Us</h3>
+                            <h3>Voyage</h3>
                         </div>
                     </div>
                 </div>
@@ -59,15 +59,16 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="about_text">
-                        <h3>Why our Consulting?</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.
-                            It esteems luckily or picture placing drawing. Apartments frequently or motionless on reasonable.</p>
-                            <a href="#" class="boxed-btn3">About Us</a>
+                        <h4>Voyage scolaire</h4>
+                        <p>Les activités pratiquées à l’occasion d’une sortie scolaire viennent nécessairement en appui des programmes. Elles s’intègrent au projet d’école et au projet pédagogique de la classe. Chaque sortie, quelle qu’en soit la durée, nourrit un projet d’apprentissages, souvent pluridisciplinaire, au travers d’un programme minutieusement préparé dans lequel le nombre des sujets d’étude ou des activités pratiquées peuvent durer jusqu’à une semaine.</p>
+                            <a href="#" class="boxed-btn3">Archives voyage scolaire 2016-2017</a>
+                            <div style="color:white; width:400px; height:50px;"></div>
+                            <a href="#" class="boxed-btn3">Archives voyage scolaire 2018</a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <div class="about_thumb">
-                        <img src="img/service/about.png" alt="">
+                        <img style="height:300px; width:600px; border-radius:12px; margin-left:200px;"src="img/banner/voyage.jpg" alt="">
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Consulting</title>
+    <title>Projet</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -226,7 +226,7 @@
                 <div class="row">
                         <div class="col-xl-12">
                             <div class="section_title mb-40">
-                                <h3>Related Cases</h3>
+                                <h3>Animation</h3>
                             </div>
                         </div>
                     </div>
@@ -234,33 +234,33 @@
                         <div class="col-xl-4 col-md-6 col-lg-4">
                                 <div class="single_case">
                                         <div class="case_thumb">
-                                                <img src="img/case/1.png" alt="">
+                                                <img src="img/banner/animation.jpg" alt="">
                                             </div>
                                     <div class="case_heading">
-                                            <span>Finance Solution</span>
-                                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                                            <span>Journée d'intégration des secondes et des premières STI2D Octobre 2018</span>
+                                            <h3><a href="#">Base de loisir de Cegy Pontoise</a></h3>
                                     </div>
                                 </div>
                         </div>
                         <div class="col-xl-4 col-md-6 col-lg-4">
                                 <div class="single_case">
                                         <div class="case_thumb">
-                                                <img src="img/case/2.png" alt="">
+                                                <img src="img/banner/cerfal.jpg" alt="">
                                             </div>
                                     <div class="case_heading">
-                                            <span>Finance Solution</span>
-                                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                                            <span>Cerfal</span>
+                                            <h3><a href="#">Engagée Cerfal</a></h3>
                                     </div>
                                 </div>
                         </div>
                         <div class="col-xl-4 col-md-6 col-lg-4">
                                 <div class="single_case">
                                         <div class="case_thumb">
-                                                <img src="img/case/3.png" alt="">
+                                                <img src="img/banner/tennis_table.jpg" alt="">
                                             </div>
-                                    <div class="case_heading">
-                                            <span>Finance Solution</span>
-                                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                                  <  <div class="case_heading">
+                                            <span>Tennis de table</span>
+                                            <h3><a href="#">Tournoi de tennis de table</a></h3>
                                     </div>
                                 </div>
                         </div>
