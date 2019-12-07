@@ -238,7 +238,7 @@
                                             </div>
                                     <div class="case_heading">
                                             <span>Journée d'intégration des secondes et des premières STI2D Octobre 2018</span>
-                                            <h3><a href="#">Base de loisir de Cegy Pontoise</a></h3>
+                                            <h3><a href="#">Base de loisir de Cergy Pontoise</a></h3>
                                     </div>
                                 </div>
                         </div>
@@ -276,7 +276,7 @@
              <div class="row justify-content-center align-items-center">
                  <div class="col-xl-8">
                      <div class="info_text text-center">
-                         <h3>Pour plus d'information :</h3>
+                         <h3>Pour plus d'informations :</h3>
                          <a class="boxed-btn3" href="#"> Tel : 01 48 37 74 26</a>
                      </div>
                  </div>
