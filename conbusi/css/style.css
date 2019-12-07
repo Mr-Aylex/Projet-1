@@ -3449,7 +3449,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam.pg);
+  background-image: url(../img/banner/bradcam.png);
 }
 
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_bradcam.scss */
@@ -3461,6 +3461,9 @@ h3 {
   position: relative;
   z-index: 0;
 }
+
+
+
 
 /* line 12, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_bradcam.scss */
 .bradcam_area::before {

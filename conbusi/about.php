@@ -40,7 +40,10 @@
     <!-- header-end -->
 
     <!-- bradcam_area  -->
-    <div class="bradcam_area bradcam_bg_1">
+    <div >
+
+    </diV>
+    <div class="bradcam_area" style="background-image: url(voyage2.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -122,34 +125,34 @@
     <!-- /counter_area  -->
 
     <!-- service_area_start -->
-    <div class="service_area minus_padding">
+    <div class="service_area minus_padding " >
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="section_title text-center mb-50">
-                            <h3>What we Do?</h3>
+                            <h3>Voyage Scolaire 2017-2018</h3>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_service text-center">
-                            <div class="service_icon">
-                                <img src="img/svg_icon/1.svg" alt="">
+                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(angleterre.jpeg);">
+
                             </div>
-                            <h3>Marketing & SEO Agency</h3>
-                            <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                            <a href="#" class="learn_more">Learn More</a>
+                            <h3>Angleterre</h3>
+                            <p>2019</p>
+                            <a href="#" class="learn_more">Lire plus...</a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_service text-center">
-                            <div class="service_icon">
-                                <img src="img/svg_icon/2.svg" alt="">
+                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(normandie.jpg);">
+
                             </div>
-                            <h3>Startup Agency</h3>
-                            <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                            <a href="#" class="learn_more">Learn More</a>
+                            <h3>Normandie</h3>
+                            <p>2019</p>
+                            <a href="#" class="learn_more">Lire plus...</a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
