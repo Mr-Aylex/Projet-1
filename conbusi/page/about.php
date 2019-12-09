@@ -9,22 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/gijgo.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slicknav.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/themify-icons.css">
+    <link rel="stylesheet" href="../css/nice-select.css">
+    <link rel="stylesheet" href="../css/flaticon.css">
+    <link rel="stylesheet" href="../css/gijgo.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/slicknav.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -43,7 +43,7 @@
     <div >
 
     </diV>
-    <div class="bradcam_area" style="background-image: url(voyage2.jpg);">
+    <div class="bradcam_area" style="background-image: url(../voyage2.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -71,7 +71,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <div class="about_thumb">
-                        <img style="height:300px; width:600px; border-radius:12px; margin-left:200px;"src="img/banner/voyage.jpg" alt="">
+                        <img style="height:300px; width:600px; border-radius:12px; margin-left:200px;"src="../img/banner/voyage.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="single_counter text-center">
                         <div class="counter_icon">
-                            <img src="img/svg_icon/group.svg" alt="">
+                            <img src="../img/svg_icon/group.svg" alt="">
                         </div>
                         <h3> <span class="counter">200</span> <span> +</span> </h3>
                         <p>Team Members</p>
@@ -95,7 +95,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="single_counter text-center">
                         <div class="counter_icon">
-                            <img src="img/svg_icon/cart.svg" alt="">
+                            <img src="../img/svg_icon/cart.svg" alt="">
                         </div>
                         <h3> <span class="counter">97</span> <span>%</span> </h3>
                         <p>Business Success</p>
@@ -104,7 +104,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="single_counter text-center">
                         <div class="counter_icon">
-                            <img src="img/svg_icon/heart.svg" alt="">
+                            <img src="../img/svg_icon/heart.svg" alt="">
                         </div>
                         <h3> <span class="counter">5628</span></h3>
                         <p>Happy Client</p>
@@ -113,7 +113,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="single_counter text-center">
                         <div class="counter_icon">
-                            <img src="img/svg_icon/respect.svg" alt="">
+                            <img src="../img/svg_icon/respect.svg" alt="">
                         </div>
                         <h3> <span class="counter">5637</span> </h3>
                         <p>Business Done</p>
@@ -137,7 +137,7 @@
                 <div class="row">
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_service text-center">
-                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(angleterre.jpeg);">
+                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(../angleterre.jpeg);">
 
                             </div>
                             <h3>Angleterre</h3>
@@ -147,7 +147,7 @@
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_service text-center">
-                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(normandie.jpg);">
+                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(../normandie.jpg);">
 
                             </div>
                             <h3>Normandie</h3>
@@ -157,7 +157,7 @@
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_service text-center">
-                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(les_carroz.jpg);">
+                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(../les_carroz.jpg);">
 
                             </div>
                             <h3>Les Carroz d'Araches Mars </h3>
@@ -167,7 +167,7 @@
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_service text-center">
-                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(Brest.jpg);">
+                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(../Brest.jpg);">
                             </div>
                             <h3>Brest</h3>
                             <p>2017</p>
@@ -176,7 +176,7 @@
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_service text-center">
-                            <div class=""style="width:300px; margin-left:-15px; height:100px; background-image:url(san_francisco.jpg);">
+                            <div class=""style="width:300px; margin-left:-15px; height:100px; background-image:url(../san_francisco.jpg);">
                             </div>
                             <h3>San franciso</h3>
                             <p>2016</p>
@@ -185,8 +185,8 @@
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_service text-center">
-                            <div class=""style="width:300px; margin-left:-15px; height:100px; background-image:url(oxford1.jpg);">
-                                <img src="img/svg_icon/6.svg" alt="">
+                            <div class=""style="width:300px; margin-left:-15px; height:100px; background-image:url(../oxford1.jpg);">
+                                <img src="../img/svg_icon/6.svg" alt="">
                             </div>
                             <h3>Oxford et Londres </h3>
                             <p>2016</p>
@@ -215,7 +215,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="single_team">
                                 <div class="team_thumb">
-                                    <img src="img/team/3.png" alt="">
+                                    <img src="../img/team/3.png" alt="">
                                 </div>
                                 <div class="team_info text-center">
                                     <h3>Milani Mou</h3>
@@ -242,7 +242,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="single_team">
                                 <div class="team_thumb">
-                                    <img src="img/team/2.png" alt="">
+                                    <img src="../img/team/2.png" alt="">
                                 </div>
                                 <div class="team_info text-center">
                                     <h3>Jasmine Pinky</h3>
@@ -269,7 +269,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="single_team">
                                 <div class="team_thumb">
-                                    <img src="img/team/1.png" alt="">
+                                    <img src="../img/team/1.png" alt="">
                                 </div>
                                 <div class="team_info text-center">
                                     <h3>Piya Zosoldos</h3>
@@ -315,7 +315,7 @@
                 </div>
                 <div class="col-xl-6 offset-xl-1 col-lg-6">
                     <div class="contact_thumb">
-                        <img src="img/banner/contact_thumb.png" alt="">
+                        <img src="../img/banner/contact_thumb.png" alt="">
                     </div>
                 </div>
             </div>
@@ -348,7 +348,7 @@
                               <div id="fils">
                             <div class="footer_logo">
                                 <a href="#">
-                                    <img style="padding-top:20px;"src="img/logo.png" height="80px" width="100px" alt="">
+                                    <img style="padding-top:20px;"src="../img/logo.png" height="80px" width="100px" alt="">
                                 </a>
                             </div>
 
@@ -382,12 +382,12 @@
                             <h3 style="margin-left:-35px;" class="footer_title">Lien utile :</h3>
                             <ul>
 
-                                <li><img href="https://0931573e.index-education.net/pronote/" style='margin-left:-40px;'src="img/banner/pronote.png" height="40px " width="40px" alt=""><a style="margin-left:10px;" href="https://0931573e.index-education.net/pronote/">  Pronote</a></li>
-                                <li><img style='margin-left:-40px;'src="img/banner/contact.png" height="40px " width="40px" alt=""><a style="margin-left:10px;"href="#"> Contact</a></li>
+                                <li><img href="https://0931573e.index-education.net/pronote/" style='margin-left:-40px;'src="../img/banner/pronote.png" height="40px " width="40px" alt=""><a style="margin-left:10px;" href="https://0931573e.index-education.net/pronote/">  Pronote</a></li>
+                                <li><img style='margin-left:-40px;'src="../img/banner/contact.png" height="40px " width="40px" alt=""><a style="margin-left:10px;"href="#"> Contact</a></li>
 
 
 
-                                            <li>  <img href="https://www.facebook.com/robertschumandugny" style='margin-left:-40px;'src="img/banner/facebook.png" height="40px " width="40px" alt=""><a style="margin-left:10px;"href="https://www.facebook.com/robertschumandugny">  Facebook</a></li>
+                                            <li>  <img href="https://www.facebook.com/robertschumandugny" style='margin-left:-40px;'src="../img/banner/facebook.png" height="40px " width="40px" alt=""><a style="margin-left:10px;"href="https://www.facebook.com/robertschumandugny">  Facebook</a></li>
 
 
                                         <!--<li>
@@ -440,33 +440,33 @@
 
 
     <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/gijgo.min.js"></script>
-    <script src="js/slick.min.js"></script>
+    <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/isotope.pkgd.min.js"></script>
+    <script src="../js/ajax-form.js"></script>
+    <script src="../js/waypoints.min.js"></script>
+    <script src="../js/jquery.counterup.min.js"></script>
+    <script src="../js/imagesloaded.pkgd.min.js"></script>
+    <script src="../js/scrollIt.js"></script>
+    <script src="../js/jquery.scrollUp.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/nice-select.min.js"></script>
+    <script src="../js/jquery.slicknav.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/gijgo.min.js"></script>
+    <script src="../js/slick.min.js"></script>
     <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
+    <script src="../js/contact.js"></script>
+    <script src="../js/jquery.ajaxchimp.min.js"></script>
+    <script src="../js/jquery.form.js"></script>
+    <script src="../js/jquery.validate.min.js"></script>
+    <script src="../js/mail-script.js"></script>
 
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

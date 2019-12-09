@@ -10,7 +10,7 @@
     <title>Inscription</title>
   </head>
   <body class="fond">
-    <?php include "navbar.php" ?>
+    <?php include "header.php" ?>
     <form class="box" action="..\traitement\traitement_inscription_eleve.php" method="post">
       <div class="g">
 

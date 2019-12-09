@@ -18,7 +18,7 @@
     <meta charset="utf-8">
 
         <link rel="stylesheet" href="../../CSS/formulaire.css">
-        <?php include "../header.php" ?>
+        <?php include "header.php" ?>
     <title></title>
 
   </head>
