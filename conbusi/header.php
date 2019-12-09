@@ -85,7 +85,7 @@
                             <div class="Appointment">
                               <?php if (empty($_SESSION)) {?>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a  href="traitement/formulaire_connexion.php">Se connecter</a>
+                                    <a  href="page/formulaire_connexion.php">Se connecter</a>
                                 </div>
                               <?php }
                               else {?>
