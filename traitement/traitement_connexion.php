@@ -9,7 +9,6 @@ catch(Exception $e)
   die('ERREUR:'.$e->getMessage());
 }
 
-
 $mail = $_POST["mail"];
 $mot_de_passe = md5($_POST["mot_de_passe"]);
 $req = $bdd->prepare('SELECT * FROM  profil_parent WHERE mail=:mail and mot_de_passe=:mot_de_passe');
@@ -24,7 +23,7 @@ if($connexion == true){
 }
 
 else{
-  header("Location: ../page/formulaire_connexion.php");
+  header("Location: ../conbusi/formulaire_connexion.php");
 }
 
 ?>
