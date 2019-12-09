@@ -52,7 +52,7 @@
                         <div class="col-xl-3 col-lg-2">
                             <div class="logo">
                                 <a href="index.php">
-                                    <img style="margin-left:-130px; margin-top:-9px;" src="img/logo.png" width="100px" height="60px" alt="">
+                                    <img style="margin-left:-130px; margin-top:-9px;" src="../img/logo.png" width="100px" height="60px" alt="">
                                 </a>
                             </div>
                         </div>
@@ -85,12 +85,12 @@
                             <div class="Appointment">
                               <?php if (empty($_SESSION)) {?>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a  href="page/formulaire_connexion.php">Se connecter</a>
+                                    <a  href="formulaire_connexion.php">Se connecter</a>
                                 </div>
                               <?php }
                               else {?>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a  href="traitement\se_deconnecter.php">Se deconnecter</a>
+                                    <a  href="../traitement/se_deconnecter.php">Se deconnecter</a>
                                 </div>
                               <?php } ?>
                             </div>

@@ -9,21 +9,21 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
    <!-- <link rel="manifest" href="site.webmanifest"> -->
-   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+   <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
    <!-- Place favicon.ico in the root directory -->
 
    <!-- CSS here -->
-   <link rel="stylesheet" href="css/bootstrap.min.css">
-   <link rel="stylesheet" href="css/owl.carousel.min.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
-   <link rel="stylesheet" href="css/font-awesome.min.css">
-   <link rel="stylesheet" href="css/themify-icons.css">
-   <link rel="stylesheet" href="css/nice-select.css">
-   <link rel="stylesheet" href="css/flaticon.css">
-   <link rel="stylesheet" href="css/gijgo.css">
-   <link rel="stylesheet" href="css/animate.css">
-   <link rel="stylesheet" href="css/slicknav.css">
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="../css/bootstrap.min.css">
+   <link rel="stylesheet" href="../css/owl.carousel.min.css">
+   <link rel="stylesheet" href="../css/magnific-popup.css">
+   <link rel="stylesheet" href="../css/font-awesome.min.css">
+   <link rel="stylesheet" href="../css/themify-icons.css">
+   <link rel="stylesheet" href="../css/nice-select.css">
+   <link rel="stylesheet" href="../css/flaticon.css">
+   <link rel="stylesheet" href="../css/gijgo.css">
+   <link rel="stylesheet" href="../css/animate.css">
+   <link rel="stylesheet" href="../css/slicknav.css">
+   <link rel="stylesheet" href="../css/style.css">
    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -58,7 +58,7 @@
             <div class="col-lg-8 posts-list">
                <div class="single-post">
                   <div class="feature-img">
-                     <img class="img-fluid" src="img/blog/single_blog_1.png" alt="">
+                     <img class="img-fluid" src="../img/blog/single_blog_1.png" alt="">
                   </div>
                   <div class="blog_details">
                      <h2>Second divided from form fish beast made every of seas
@@ -120,7 +120,7 @@
                            class="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
                            <div class="thumb">
                               <a href="#">
-                                 <img class="img-fluid" src="img/post/preview.png" alt="">
+                                 <img class="img-fluid" src="../img/post/preview.png" alt="">
                               </a>
                            </div>
                            <div class="arrow">
@@ -150,7 +150,7 @@
                            </div>
                            <div class="thumb">
                               <a href="#">
-                                 <img class="img-fluid" src="img/post/next.png" alt="">
+                                 <img class="img-fluid" src="../img/post/next.png" alt="">
                               </a>
                            </div>
                         </div>
@@ -201,7 +201,7 @@
                      <div class="single-comment justify-content-between d-flex">
                         <div class="user justify-content-between d-flex">
                            <div class="thumb">
-                              <img src="img/comment/comment_2.png" alt="">
+                              <img src="../img/comment/comment_2.png" alt="">
                            </div>
                            <div class="desc">
                               <p class="comment">
@@ -227,7 +227,7 @@
                      <div class="single-comment justify-content-between d-flex">
                         <div class="user justify-content-between d-flex">
                            <div class="thumb">
-                              <img src="img/comment/comment_3.png" alt="">
+                              <img src="../img/comment/comment_3.png" alt="">
                            </div>
                            <div class="desc">
                               <p class="comment">
@@ -413,32 +413,32 @@
                      <ul class="instagram_row flex-wrap">
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="img/post/post_5.png" alt="">
+                              <img class="img-fluid" src="../img/post/post_5.png" alt="">
                            </a>
                         </li>
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="img/post/post_6.png" alt="">
+                              <img class="img-fluid" src="../img/post/post_6.png" alt="">
                            </a>
                         </li>
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="img/post/post_7.png" alt="">
+                              <img class="img-fluid" src="../img/post/post_7.png" alt="">
                            </a>
                         </li>
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="img/post/post_8.png" alt="">
+                              <img class="img-fluid" src="../img/post/post_8.png" alt="">
                            </a>
                         </li>
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="img/post/post_9.png" alt="">
+                              <img class="img-fluid" src="../img/post/post_9.png" alt="">
                            </a>
                         </li>
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="img/post/post_10.png" alt="">
+                              <img class="img-fluid" src="../img/post/post_10.png" alt="">
                            </a>
                         </li>
                      </ul>
@@ -470,7 +470,7 @@
                          <div class="footer_widget">
                              <div class="footer_logo">
                                  <a href="#">
-                                     <img src="img/footer_logo.png" alt="">
+                                     <img src="../img/footer_logo.png" alt="">
                                  </a>
                              </div>
                              <p>
@@ -562,33 +562,33 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
    <!-- JS here -->
-   <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-   <script src="js/vendor/jquery-1.12.4.min.js"></script>
-   <script src="js/popper.min.js"></script>
-   <script src="js/bootstrap.min.js"></script>
-   <script src="js/owl.carousel.min.js"></script>
-   <script src="js/isotope.pkgd.min.js"></script>
-   <script src="js/ajax-form.js"></script>
-   <script src="js/waypoints.min.js"></script>
-   <script src="js/jquery.counterup.min.js"></script>
-   <script src="js/imagesloaded.pkgd.min.js"></script>
-   <script src="js/scrollIt.js"></script>
-   <script src="js/jquery.scrollUp.min.js"></script>
-   <script src="js/wow.min.js"></script>
-   <script src="js/nice-select.min.js"></script>
-   <script src="js/jquery.slicknav.min.js"></script>
-   <script src="js/jquery.magnific-popup.min.js"></script>
-   <script src="js/plugins.js"></script>
-   <script src="js/gijgo.min.js"></script>
+   <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
+   <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+   <script src="../js/popper.min.js"></script>
+   <script src="../js/bootstrap.min.js"></script>
+   <script src="../js/owl.carousel.min.js"></script>
+   <script src="../js/isotope.pkgd.min.js"></script>
+   <script src="../js/ajax-form.js"></script>
+   <script src="../js/waypoints.min.js"></script>
+   <script src="../js/jquery.counterup.min.js"></script>
+   <script src="../js/imagesloaded.pkgd.min.js"></script>
+   <script src="../js/scrollIt.js"></script>
+   <script src="../js/jquery.scrollUp.min.js"></script>
+   <script src="../js/wow.min.js"></script>
+   <script src="../js/nice-select.min.js"></script>
+   <script src="../js/jquery.slicknav.min.js"></script>
+   <script src="../js/jquery.magnific-popup.min.js"></script>
+   <script src="../js/plugins.js"></script>
+   <script src="../js/gijgo.min.js"></script>
 
    <!--contact js-->
-   <script src="js/contact.js"></script>
-   <script src="js/jquery.ajaxchimp.min.js"></script>
-   <script src="js/jquery.form.js"></script>
-   <script src="js/jquery.validate.min.js"></script>
-   <script src="js/mail-script.js"></script>
+   <script src="../js/contact.js"></script>
+   <script src="../js/jquery.ajaxchimp.min.js"></script>
+   <script src="../js/jquery.form.js"></script>
+   <script src="../js/jquery.validate.min.js"></script>
+   <script src="../js/mail-script.js"></script>
 
-   <script src="js/main.js"></script>
+   <script src="../js/main.js"></script>
    <script>
       $('#datepicker').datepicker({
           iconsLibrary: 'fontawesome',
