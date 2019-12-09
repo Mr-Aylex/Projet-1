@@ -47,7 +47,7 @@ if(isset($connexion)){
   if(isset($mail)){
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Modification de mot de passe';
-    $mail->Body    = '<a>confirmation_mot_de_passe_oublie.php</a>';
+    $mail->Body    = "<a href='http://localhost/Projet_Site/Projet-1/conbusi/page/confirmation_mot_de_passe_oublie.php'>Réinitialiser mot de passe</a>";
     $mail->AltBody = 'This is the body in plain text for non-HTML mail client';
 
     $mail->send();
