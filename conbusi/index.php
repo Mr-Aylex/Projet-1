@@ -197,7 +197,7 @@
                     <div class="about_text">
                         <h4>Comment inscrire son enfant ?</h4>
                         <p>Inscrivez votre enfant dès maintenant en cliquant ci-dessous.</p>
-                            <a href="../page/formulaire_inscription_eleve.php" class="boxed-btn3">Inscrire son enfant</a>
+                            <a href="page/formulaire_inscription_eleve.php" class="boxed-btn3">Inscrire son enfant</a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">

@@ -19,11 +19,11 @@ if($connexion == true){
     $_SESSION['id']=$connexion['id'];
     $_SESSION['nom']=$connexion['nom'];
     $_SESSION['prenom']=$connexion['prenom'];
-  header("Location: ..\conbusi\index.php");
+  header("Location: ..\index.php");
 }
 
 else{
-  header("Location: ../conbusi/formulaire_connexion.php");
+  header("Location: formulaire_connexion.php");
 }
 
 ?>

@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (empty($_POST['nom']) or empty($_POST['prenom']) or empty($_POST['age']) or empty($_POST['classe'])) {
-      header('Location: ..\page\formulaire_inscription_eleve.php');
+      header('Location: page\formulaire_inscription_eleve.php');
   }
 else {
   $nom=$_POST['nom'];

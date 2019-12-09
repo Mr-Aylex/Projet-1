@@ -85,12 +85,12 @@
                             <div class="Appointment">
                               <?php if (empty($_SESSION)) {?>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a  href="formulaire_connexion.php">Se connecter</a>
+                                    <a  href="traitement/formulaire_connexion.php">Se connecter</a>
                                 </div>
                               <?php }
                               else {?>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a  href="..\traitement\se_deconnecter.php">Se deconnecter</a>
+                                    <a  href="traitement\se_deconnecter.php">Se deconnecter</a>
                                 </div>
                               <?php } ?>
                             </div>
